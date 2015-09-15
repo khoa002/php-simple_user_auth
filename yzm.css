@@ -1,0 +1,75 @@
+* {
+	padding: auto;
+	margin: auto;
+	border: 0;
+	vertical-align: middle;
+	font-family:'Signika', 'Tahoma', sans-serif;
+	font-size: 8pt;
+}
+a, a:link, a:hover, a:visited {
+	border: 0;
+	text-decoration: none;
+	cursor: pointer;
+	color: #693;
+}
+a:hover {
+	color: #900;
+	text-decoration: underline;
+}
+html, body {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+body {
+	background: #fff url('img/layout/pagetile_3x3_cccccc_diag.png') repeat fixed center;
+}
+label {
+	display: inline-block;
+	margin: 0 2px;
+	text-align: left;
+	white-space: nowrap;
+}
+input {
+	margin: 2px;
+	padding: 2px;
+}
+
+#overall_wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+#inner_wrapper {
+	margin: auto;
+	padding: auto;
+	display: inline-block;
+	max-width: 1000px;
+	border: 1px solid #360;
+	background-color: #cfc;
+}
+
+#logo {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 300%;
+	background-color: #693;
+	color: #fff;
+	padding: 5px;
+	letter-spacing: 3px;
+	border: 1px solid #360;
+	border-width: 0 0 1px 0;
+}
+
+#page_content {
+	padding: 3px;
+}
+#top_menu {
+	text-transform: uppercase;
+}
+
+.section_title {
+	font-size: 150%;
+}

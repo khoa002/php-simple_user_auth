@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ page.php?page=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ page.php?page=$1
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ page.php?page=$1&param1=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ page.php?page=$1&param1=$2
